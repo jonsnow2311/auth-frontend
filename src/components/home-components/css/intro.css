@@ -1,0 +1,12 @@
+.rootIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+    background: #bfe3f5;
+}

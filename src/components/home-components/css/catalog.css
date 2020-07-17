@@ -1,0 +1,121 @@
+.imageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 200px;
+}
+
+/* .imageGrid > div {
+    background: #eee;
+} */
+
+
+
+/*Image 1 */
+.image1 {
+    overflow: hidden;
+}
+.image1 img {
+    display: block; /* no whitespace */
+    transition: 0.2s ease-out;
+}
+.image1:hover img {
+    transform: scale(0.9);
+}
+.image1 {
+    grid-row: 1 / 2;
+    grid-column: 1 /2;
+}
+/*Image 1 */
+
+
+/*Image 2*/
+.image2 {
+    overflow: hidden;
+}
+.image2 img {
+    display: block; /* no whitespace */
+    transition: 0.2s ease-out;
+}
+.image2:hover img {
+    transform: scale(0.9);
+}
+.image2 {
+    grid-row: 1 / 2;
+    grid-column: 2 /3;
+}
+/*Image 3 */
+
+
+/*Image 3*/
+.image3 {
+    overflow: hidden;
+}
+.image3 img {
+    display: block; /* no whitespace */
+    transition: 0.2s ease-out;
+}
+.image3:hover img {
+    transform: scale(0.9);
+}
+.image3 {
+    grid-row: 1 / 2;
+    grid-column: 3 /4;
+}
+/*Image 3 */
+
+
+/*Image 4*/
+.image4 {
+    overflow: hidden;
+}
+.image4 img {
+    display: block; /* no whitespace */
+    transition: 0.2s ease-out;
+}
+.image4:hover img {
+    transform: scale(0.9);
+}
+.image4 {
+    grid-row: 2 / 3;
+    grid-column: 1 /2;
+}
+/* Image 4*/
+
+
+/*Image 5*/
+.image5 {
+    overflow: hidden;
+}
+.image5 img {
+    display: block; /* no whitespace */
+    transition: 0.2s ease-out;
+}
+.image5:hover img {
+    transform: scale(0.9);
+}
+.image5 {
+    grid-row: 2 / 3;
+    grid-column: 2 /3;
+}
+/*Image 5 */
+
+
+/*Image 6 */
+.image6 {
+    overflow: hidden;
+}
+.image6 img {
+    display: block; /* no whitespace */
+    transition: 0.2s ease-out;
+}
+.image6:hover img {
+    transform: scale(0.9);
+}
+.image6 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+/*Image 6 */

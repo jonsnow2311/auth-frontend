@@ -1,0 +1,38 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* .grid >div {
+    background-color: #eee;
+} */
+.address {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.tele {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.email {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.aboutTitle {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.aboutText {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+.sociallinks {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
